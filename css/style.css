@@ -39,25 +39,25 @@ ul li.active a{
   color: #000;
 }
 
-.profile_pic img{
-  float: left;
+.intro img{
   width: 200px;
   height: auto;
-  position: absolute;
-  top: 50%;
-  left: 24%;
-  transform: translate(-50%, -50%);
+  margin-right: 10px;
 }
 
-.intro_text p{
-  float: left;
+.intro span {
+  display: inline-block;
+  width: 20em;
+  font-size: 40px;
+  color: #fff;
+}
+
+.intro {
+  float: center;
   text-align: center;
   position: absolute;
-  color: #fff;
-  font-size: 40px;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 17%;
 }
 
 .main{
@@ -74,5 +74,6 @@ ul li.active a{
 
 .title h1{
   color: #fff;
+  text-align: center;
   font-size: 70px;
 }
